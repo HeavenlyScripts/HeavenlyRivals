@@ -1,4 +1,3 @@
-
 local SCRIPT_URL = "https://raw.githubusercontent.com/HeavenlyScripts/HeavenlyRivals/refs/heads/main/Rivals.lua?token=GHSAT0AAAAAADORTUREGIT5WWWJJ2SL7GFE2MGCYQQ" --replace with ur repo
 
 if queue_on_teleport then
@@ -734,20 +733,6 @@ local function sort()
         Options = skins,
         Callback = function(selectedSkin)
             applySkin(weaponName, selectedSkin)
-
-            if selectedSkin == "None" then
-                OrionLib:MakeNotification({
-                    Name = "Skin Reset",
-                    Content = weaponName .. " skin reset to default!",
-                    Time = 2
-                })
-            else
-                OrionLib:MakeNotification({
-                    Name = "Skin Applied",
-                    Content = "Applied " .. selectedSkin .. " to " .. weaponName,
-                    Time = 2
-                })
-            end
         end
        })
     end
