@@ -1,4 +1,4 @@
-local SCRIPT_URL = "https://raw.githubusercontent.com/HeavenlyScripts/HeavenlyRivals/refs/heads/main/Rivals.lua?token=GHSAT0AAAAAADORTUREGIT5WWWJJ2SL7GFE2MGCYQQ" --replace with ur repo
+local SCRIPT_URL = "https://raw.githubusercontent.com/HeavenlyScripts/HeavenlyRivals/refs/heads/main/Rivals.lua?token=GHSAT0AAAAAADORTURFGKOZCRMQZRQCMHYS2MGDCBA" --replace with ur repo
 
 if queue_on_teleport then
     pcall(queue_on_teleport, [[
